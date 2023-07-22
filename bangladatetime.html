@@ -1,0 +1,47 @@
+<!<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <center>
+<script language = "JavaScript">
+
+var now = new Date();
+var dayNames = new Array("রবিবার","সোমবার","মঙ্গলবার","বুধবার","বৃহস্পতিবার","শুক্রবার","শনিবার");
+var monNames = new Array("জানুয়ারি","ফেব্রুয়ারী","মার্চ","এপ্রিল","মে","জুন","জুলাই","আগস্ট","সেপ্টেম্বর","অক্টোবর","নভেম্বর","ডিসেম্বর");
+
+document.write("আজ " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear()); </script> 
+<script>
+atoj = new Date();
+atoj1= atoj.getHours();
+atoj2 = atoj.getMinutes();
+atoj3= atoj.getSeconds();
+
+if(atoj1==0){
+    atoj4=" AM";atoj1=12
+}
+else if(atoj1 <= 11){
+    atoj4=" AM"
+} 
+else if(atoj1 == 12){
+    atoj4=" PM";atoj1=12
+    
+} else if(atoj1 >= 13){
+    atoj4=" PM";atoj1-=12
+}
+
+if(atoj2 <= 9){
+    atoj2="0"+atoj2
+} 
+document.write(""+atoj1+":"+atoj2+":"+atoj3+""+atoj4+""+"");
+</script></center>
+
+<script language = "JavaScript"> var now = new Date(); var dayNames = new Array("রবিবার","সোমবার","মঙ্গলবার","বুধবার","বৃহস্পতিবার","শুক্রবার","শনিবার"); var monNames = new Array("জানুয়ারি","ফেব্রুয়ারী","মার্চ","এপ্রিল","মে","জুন","জুলাই","আগস্ট","সেপ্টেম্বর","অক্টোবর","নভেম্বর","ডিসেম্বর"); document.write("আজ " + dayNames[now.getDay()] + " " + monNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear()); </script> | <script> atoj = new Date(); atoj1= atoj.getHours(); atoj2 = atoj.getMinutes(); atoj3= atoj.getSeconds(); if(atoj1==0){atoj4=" AM";atoj1=12} else if(atoj1 <= 11){atoj4=" AM"} else if(atoj1 == 12){atoj4=" PM";atoj1=12} else if(atoj1 >= 13){atoj4=" PM";atoj1-=12} if(atoj2 <= 9){atoj2="0"+atoj2} document.write(""+atoj1+":"+atoj2+":"+atoj3+""+atoj4+""+""); </script>  |
+
+<script>eval(function (p, a, c, k, e, d) { e = function (c) { return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36)) }; if (!''.replace(/^/, String)) { while (c--) { d[e(c)] = k[c] || e(c) } k = [function (e) { return d[e] }]; e = function () { return '\\w+' }; c = 1 }; while (c--) { if (k[c]) { p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]) } } return p }('8 y(f,9,b){0 5=n x();0 h=5.z();0 k=5.A()+1;0 g=5.w();0 3=9;7(!3){3=\'i\'}e{3=3.v()}0 l=\'q://i.r/s/u/m/?t=\'+h+\'&D=\'+k+\'&Q=\'+g+\'&9=\'+3;j(l,8(K,a){7(a){0 c=J.F(f);0 4="";7(b){4=b+" "}4+=a.I;c.N=4}})}8 j(o,d){0 2=n E();2.L(\'M\',o,C);2.p=\'m\';2.P=8(){0 6=2.6;7(6==B){d(H,2.O)}e{d(6)}};2.G()}', 53, 53, 'var||xhr|lang|dateString|today|status|if|function|language|result|prefix||callback|else|containerId|yyyy|dd|bangla|getJSON|mm|jsonUrl|json|new|url|responseType|https|plus|api|day|converttobangladate|toLowerCase|getFullYear|Date|dateToday|getDate|getMonth|200|true|month|XMLHttpRequest|getElementById|send|null|FullDate|document|err|open|GET|innerText|response|onload|year'.split('|'), 0, {}))</script>
+<script>dateToday('date-today', 'bangla');</script>
+<span id="date-today"></span>
+
+    </body>
+</html>

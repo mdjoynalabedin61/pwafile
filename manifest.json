@@ -1,0 +1,62 @@
+{
+  "name": "A basic Progressive Web App",
+  "short_name": "Web app",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FF7A00",
+  "theme_color": "#5FAAE5",
+  "icons": [
+    {
+      "src": "app-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "app-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "app-icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "app-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+    ],
+    
+"shortcuts": [
+    {
+      "name": "Search page",
+      "short_name": "Search",
+      "url": "index.html",
+      "icons": [
+        { "src": "sun.png", "sizes": "128x28", "type": "image/png" }
+      ]
+    },
+    
+    
+    {
+      "name": "News feed",
+      "short_name": "News",
+      "url": "news.html",
+      "icons": [
+        { "src": "cloudy.png", "sizes": "128x128", "type": "image/png" }
+      ]
+    },
+    
+    
+    {
+      "name": "Add new Post",
+      "short_name": "Add Post",
+      "url": "post.html",
+      "icons": [
+        { "src": "cloudy (1).png", "sizes": "128x128", "type": "image/png" }
+      ]
+    }
+  ]
+}
